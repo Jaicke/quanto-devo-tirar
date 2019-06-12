@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-danger error" id="error" role="alert">
+            <span id="resource"></span> não pode ser maior que 10.0.
+        </div>
+        <div class="row" id="container-resultado">        
+            <div class="col-md-9">
+                <h5>Preciso tirar</h5>
+                <span id="resultado">0.00</span>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <form action="">
+                    <label for="media">Média Normal</label>
+                    <input class="form-control nota" type="text" id="media"></input>
+                    <label for="mediaNecessaria">Média necessária</label>
+                    <input class="form-control nota" type="text" id="mediaNecessaria"></input><br>
+                    <button type="button" class="btn btn-dark" id="btn-calcular" onClick = "calcular()">Calcular</button>
+                </form>
+                
+            </div>
+        </div>
+
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

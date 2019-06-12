@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+    margin: 20%;
+    margin-top: 5%
+}
+
+.container{
+    padding: 10%;
+    background-color: whitesmoke;
+    border-radius: 7%;
+    border: solid pink
+}
+
+#container-resultado{
+    font-size: 24px;
+    border-bottom:solid black;
+    margin: 5%;
+}
+
+.form-control{
+    border-color: palevioletred
+}
+
+.error {
+    display: none;
+}
