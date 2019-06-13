@@ -22,14 +22,19 @@
         
         <div class="row">
             <div class="col-md-12">
-                <form action="">
-                    <label for="media">Média Normal</label>
-                    <input class="form-control nota" type="number" id="media"></input>
-                    <label for="mediaNecessaria">Média necessária</label>
-                    <input class="form-control nota" type="number" id="mediaNecessaria"></input><br>
-                    <button type="button" class="btn btn-dark" id="btn-calcular" onClick = "calcular()">Calcular</button>
-                </form>
-                
+                <label for="media">Média Normal</label>
+                <input class="form-control nota" type="number" id="media"></input>
+                <label for="mediaNecessaria">Média necessária</label>
+                <input class="form-control nota" type="number" id="mediaNecessaria"></input><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" class="btn btn-dark" id="btn-calcular" onClick = "calcular()">Calcular</button>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-danger" id="btn-limpar" onClick = "limpar()">Limpar</button>
             </div>
         </div>
 

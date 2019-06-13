@@ -1,7 +1,6 @@
 body {
     background-color: white;
-    margin: 20%;
-    margin-top: 5%
+    margin: 2%;
 }
 
 .container{
@@ -23,4 +22,8 @@ body {
 
 .error {
     display: none;
+}
+
+#btn-calcular, #btn-limpar{
+    width: 100%;
 }
